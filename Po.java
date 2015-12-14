@@ -48,6 +48,8 @@ public class Po {
 		NumberFormat number=NumberFormat.getNumberInstance();
 		return number.format(poTotal);
 	}
-	
+	public String toString() {
+		return company;
+	}
 	
 }
